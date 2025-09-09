@@ -23,6 +23,7 @@ h1 {
     background-color: skyblue;
     margin: 0 auto;
     border: 1px dashed;
+    margin-bottom: 300px;
 }
 
 .inner-div {
@@ -52,4 +53,35 @@ h4 {
     color: skyblue;
     font-weight: 1200;
     font-style: oblique;
+}
+
+ul {
+    list-style: none;
+    border: 1px solid;
+    margin: 100px 300px;
+}
+
+li {
+    display: inline;
+    margin: 0 60px;
+}
+
+#button-container {
+    /* margin-bottom: 200px; */
+    margin: 100px 30vw;
+
+}
+
+button {
+    margin: 0px 30px;
+    padding: 10px 20px;
+
+}
+
+#button1 {
+    visibility: hidden;
+}
+
+#button2 {
+    display: none;
 }
