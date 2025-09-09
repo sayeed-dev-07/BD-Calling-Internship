@@ -6,6 +6,7 @@
 }
 .wrapper{
     min-height: 100vh;
+    margin: 0 auto;
 }
 ul{
     list-style: none;
@@ -43,7 +44,7 @@ li{
     opacity: 0.4;
 }
 main{
-    width: 420px;
+    width: 310px;
     margin: 60px auto;
     padding-bottom: 60px;
 }
