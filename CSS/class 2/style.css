@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(220, 214, 214);
+}
+
+#header {
+    text-align: center;
+    font-size: 2rem;
+    background-color: white;
+    box-shadow: 1rem 1rem 1rem rgb(203, 201, 201);
+    padding: 20px 10px;
+}
+
+#header>*>* {
+    margin-right: 7rem;
+}
+
+.logo>p {
+    font-family: "Coiny", system-ui;
+    font-size: 3.4rem;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.logo>p:hover {
+    color: crimson;
+    transition: all 0.2s linear;
+}
+
+.logo {
+    display: inline-block;
+}
+
+#nav-links {
+    display: inline-block;
+}
+
+#nav-links>a {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+#nav-links>a:hover {
+    transition: all 0.5s ease;
+    color: rgb(45, 155, 199);
+    text-decoration: underline;
+}
+
+#hero {
+    width: 100vw;
+    height: 60vh;
+    background-image: url(https://a-static.besthdwallpaper.com/one-piece-monkey-d-luffy-black-and-white-wallpaper-1920x1200-117062_6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.first-para {
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    font-style: italic;
+    bottom: 45%;
+    left: 3%;
+}
+
+.second-para {
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    font-style: italic;
+    bottom: 30%;
+    right: 30%;
+}
