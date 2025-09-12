@@ -57,7 +57,7 @@ body {
 }
 
 #hero {
-    width: 100vw;
+    width: 100%;
     height: 60vh;
     background-image: url(https://a-static.besthdwallpaper.com/one-piece-monkey-d-luffy-black-and-white-wallpaper-1920x1200-117062_6.jpg);
     background-repeat: no-repeat;
@@ -82,4 +82,264 @@ body {
     font-style: italic;
     bottom: 30%;
     right: 30%;
+}
+
+.main {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.char-name {
+    font-weight: 600;
+}
+
+.text-area {
+    padding: 1.2rem 0.6rem;
+}
+
+.about-para {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+}
+
+.char-about {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.name-para {
+    font-size: 1.9rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.card {
+    cursor: pointer;
+    width: 48%;
+    border: 1px solid;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.3rem;
+}
+
+
+.img {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url(https://preview.redd.it/gojo-over-the-years-v0-u60l8pn2o17b1.jpg?width=640&crop=smart&auto=webp&s=a7128d1c28e1415cb4b0bcc43debcbafab51349a);
+}
+
+.img2 {
+    background-image: url(https://pbs.twimg.com/media/ENxnfZQXYAQ5wE5.jpg);
+}
+
+.img3 {
+    background-image: url(https://i.pinimg.com/474x/f5/44/a9/f544a96ce8d5d0c6e345ee982133a2c0.jpg);
+}
+
+.img4 {
+    background-image: url(https://64.media.tumblr.com/1e0beb1e88acbd94d50564ad32dbebc6/519e4cf55b8b72b6-9c/s640x960/de9f55ec3ddccb9bdc6fde330cc77963c14a4305.jpg);
+}
+
+.button-container {
+    padding: 2.3rem;
+    text-align: center;
+}
+
+.button-container>a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    font-weight: 500;
+}
+
+.main-content {
+    width: calc(100% - 6rem);
+    margin: 3rem auto;
+
+    height: auto;
+    overflow: visible;
+}
+
+.main-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.content-area {
+    float: left;
+    width: 70%;
+    min-height: 250vh;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/923/35/743/vertical-anime-anime-girls-airplane-fence-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+}
+
+.side-bar {
+    float: right;
+    width: 28%;
+    text-align: center;
+    color: rgb(13, 225, 165);
+    font-size: 2rem;
+    position: sticky;
+    top: 1rem;
+    height: 40vh;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.categories-div {
+    height: 33%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.categories-div::before {
+    content: '';
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+
+    z-index: -1;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/crunchyroll-solo-leveling-67f7ee68107a5.jpg?crop=1xw:1xh;0.0657xw,0.0627xh&resize=1200:*);
+    background-size: cover;
+}
+
+.recent-div {
+    height: 33%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.recent-div::before {
+    content: '';
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+
+    z-index: -1;
+    background-image: url(https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/F382/production/_123883326_852a3a31-69d7-4849-81c7-8087bf630251.jpg);
+    background-size: cover;
+}
+
+.recent-div:hover::before {
+    filter: blur(0.2rem);
+}
+
+.about-div:hover::before {
+    filter: blur(0.2rem);
+}
+
+.categories-div:hover::before {
+    filter: blur(0.2rem);
+}
+
+.about-div {
+    height: 33%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.about-div::before {
+    content: '';
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(https://nerdizmo.ig.com.br/wp-content/uploads/2024/05/Lista-de-animes-recomendacoes-1-semestre-de-2024.jpg);
+    background-size: cover;
+}
+
+
+/** single page post styling start here  **/
+
+.singlePagePost{
+    width: 60vw;
+    margin: 4rem auto;
+    text-align: center;
+}
+.singlePagePost > .titile{
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+}
+.singlePagePost > blockquote{
+    font-size: 1.9rem;
+    text-align: start;
+    font-style: italic;
+}
+.singlePagePost > img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.button-container-singlePost{
+    display: inline-block;
+}
+.button-container-singlePost > button{
+    padding: 0.5rem 2.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    border: none;
+    margin-right: 2rem;
+}
+.button-container-singlePost > button:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.3s linear;
+}
+.table-section{
+    margin: 0 auto;
+    width: 60vw;
+    text-align: center;
+}
+table > caption{
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.table-section > table{
+    width: 100%;
+    border: 1px solid ;
+    font-size: 1.2rem;
+    border-collapse: collapse;
+
+}
+table >  thead > tr > th{
+    font-size: 1.6rem;
+}
+th, td {
+    border: 1px solid;
+    padding: 0.5rem;
+   
+}
+.Exceptional-td{
+    font-style: italic;
+    font-weight: 500;
+}
+table tr:nth-child(even){
+    background-color: rgba(135, 207, 235, 0.69);
 }
