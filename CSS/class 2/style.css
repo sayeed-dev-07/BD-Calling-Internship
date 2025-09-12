@@ -159,8 +159,13 @@ body {
     border-radius: 0.5rem;
     background-color: white;
     font-weight: 500;
+    transition: all 0.3s linear;
 }
-
+.button-container > a:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.3s linear;
+}
 .main-content {
     width: calc(100% - 6rem);
     margin: 3rem auto;
